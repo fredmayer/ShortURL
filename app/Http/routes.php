@@ -15,4 +15,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::controller('/', 'HomeController', ['as' => 'home']);
+//Route::controller('/', 'HomeController', ['as' => 'home']);
