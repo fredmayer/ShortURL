@@ -11,7 +11,7 @@
 
 Для получения короткой ссылки через API выполните следующее:
 
-POST: http://shorturl.loc/api/url <br/>
+POST: http://url.topmotels.ru/api/url <br/>
 Content-type: application/json <br/>
 POST body: <br/>
 { <br/>
@@ -20,7 +20,7 @@ POST body: <br/>
 
 ОТВЕТ: <br/>
 { <br/>
-  "origin_url": "https://yandex.ru/search/?text=sadasdasd", <br/>
-  "short_url": "http://shorturl.loc/nrJKYUda", <br/>
+  "origin_url": "https://www.yandex.ru/search/?lr=39&offline_search=1&text=%D0%BA%D0%BE%D1%82%D0%B8%D0%BA%D0%B8", <br/>
+  "short_url": "http://url.topmotels.ru/aRuSxGRC", <br/>
   "expired": "1525376299" <br/>
 }
