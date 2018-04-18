@@ -15,4 +15,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/{short}', "ShortenerController@go")->name('goto');
+
 Route::controller('/api', 'ApiController', ['as' => 'api']);
