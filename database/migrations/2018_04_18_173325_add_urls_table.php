@@ -18,6 +18,7 @@ class AddUrlsTable extends Migration
             $table->string('url',255)->index();
             $table->string('short',12);
             $table->date('expired')->index();
+            $table->integer('visits');
             $table->timestamp('created_at');
             $table->primary('short');
         });

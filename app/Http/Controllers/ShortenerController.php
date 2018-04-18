@@ -18,7 +18,8 @@ class ShortenerController extends Controller
             abort(404);
         }
 
-        // TODO: учет статистики переходов $model->commit();
+        //Подсчет кол-ва визитов;
+        $model->commit();
 
         return redirect($model->url);
     }
