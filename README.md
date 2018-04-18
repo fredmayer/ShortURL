@@ -11,16 +11,16 @@
 
 Для получения короткой ссылки через API выполните следующее:
 
-POST: http://shorturl.loc/api/url
-Content-type: application/json
-POST body:
-{
-	"url":"your url here"
+POST: http://shorturl.loc/api/url <br/>
+Content-type: application/json <br/>
+POST body: <br/>
+{ <br/>
+  "url":"your url here" <br/>
 }
 
-ОТВЕТ:
-{
-  "origin_url": "https://yandex.ru/search/?text=sadasdasd",
-  "short_url": "http://shorturl.loc/nrJKYUda",
-  "expired": "1525376299"
+ОТВЕТ: <br/>
+{ <br/>
+  "origin_url": "https://yandex.ru/search/?text=sadasdasd", <br/>
+  "short_url": "http://shorturl.loc/nrJKYUda", <br/>
+  "expired": "1525376299" <br/>
 }
