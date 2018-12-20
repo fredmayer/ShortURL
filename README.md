@@ -11,6 +11,7 @@
 
 Для получения короткой ссылки через API выполните следующее:
 
+```
 POST: http://url.topmotels.ru/api/url <br/>
 Content-type: application/json <br/>
 POST body: <br/>
@@ -24,3 +25,4 @@ POST body: <br/>
   "short_url": "http://url.topmotels.ru/aRuSxGRC", <br/>
   "expired": "1525376299" <br/>
 }
+```
